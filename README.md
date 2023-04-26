@@ -75,7 +75,5 @@ Contributions are welcome, please don't change the version number or the files i
 Clone the repo, navigate to the root, then run the following commands:
 
 ```
-npm i -g grunt-cli
-npm i
-grunt
+yarn run build
 ```
