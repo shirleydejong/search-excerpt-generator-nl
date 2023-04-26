@@ -1,11 +1,23 @@
 {
-  "name": "search-excerpt-generator",
-  "version": "0.2.0",
+  "name": "search-excerpt-generator-nl",
+  "version": "0.3.0",
+  "description": "Given a Dutch body and query, generates a search excerpt",
+  "exports": {
+    "import": "./dist/index.js",
+    "require": "./dist/index.cjs"
+  },
+  "scripts": {
+    "build": "node build.js"
+  },
+  "type": "module",
+  "repository": "https://github.com/shirleydejong/search-excerpt-generator-nl.git",
+  "contributors": [
+    "Dave Allie (https://github.com/daveallie)",
+    "Shirley de Jong"
+  ],
+  "license": "MIT",
+  "private": false,
   "devDependencies": {
-    "grunt": "^1.0.1",
-    "grunt-contrib-concat": "^1.0.1",
-    "grunt-contrib-jshint": "^1.0.0",
-    "grunt-contrib-uglify": "^2.0.0",
-    "grunt-contrib-watch": "^1.0.0"
+    "esbuild": "^0.17.18"
   }
 }
