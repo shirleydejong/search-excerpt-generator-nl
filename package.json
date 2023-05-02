@@ -1,6 +1,6 @@
 {
   "name": "search-excerpt-generator-nl",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Given a Dutch body and query, generates a search excerpt",
   "exports": {
     "import": "./dist/index.js",

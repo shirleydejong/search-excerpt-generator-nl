@@ -87,7 +87,7 @@ function getWholeWordsWithMaxChars(string, maxLength) {
  */
 export function stopWordFilter(word) {
 	const dutchStopWords = ['aan', 'af', 'al', 'als', 'bij', 'dan', 'dat', 'de', 'die', 'dit', 'een', 'en', 'er', 'had', 'heb', 'hem', 'het', 'hier', 'hij', 'hoe', 'ik', 'in', 'is', 'je', 'kan', 'me', 'men', 'met', 'mij', 'nog', 'nu', 'of', 'ons', 'ook', 'te', 'tot', 'uit', 'van', 'veel', 'voor', 'was', 'wat', 'we', 'wel', 'wij', 'zal', 'ze', 'zei', 'zelf', 'zich', 'zo', 'zou'];
-	if ( dutchStopWords.includes(word) ) {
+	if ( !dutchStopWords.includes(word) ) {
 		return word;
 	}
 	return false;
