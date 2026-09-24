@@ -1,5 +1,8 @@
 {
-  "name": "search-excerpt-generator-nl",
+  "name": "@shirleydejong/search-excerpt-generator-nl",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "version": "0.3.2",
   "description": "Given a Dutch body and query, generates a search excerpt",
   "exports": {
