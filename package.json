@@ -19,5 +19,8 @@
   "private": false,
   "devDependencies": {
     "esbuild": "^0.17.18"
+  },
+  "allowScripts": {
+    "esbuild@0.17.19": true
   }
 }
